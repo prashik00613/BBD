@@ -319,7 +319,7 @@ public class Step_Def  extends Base_Class{
 		{
 			//Convert web driver object to TakeScreenshot
 
-			String fileWithPath = "C:\\Users\\prach\\Desktop\\CodeStudio\\CucumberFramework\\Screenshot\\failedScreenshot.png";
+			String fileWithPath = "/BBD_Project/logScreenshot/failedScreenshot.png";
 			TakesScreenshot scrShot =((TakesScreenshot)driver);
 
 			//Call getScreenshotAs method to create image file
